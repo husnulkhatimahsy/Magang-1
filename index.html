@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kebab Duren Mbak Mel</title>
+
+    <link rel="stylesheet"href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class ="headerNavbar">
+    <header class="dashboard__bottomHeader">
+      <div class="dashboard__header-logo">
+        <img src="logo_remove.png" alt="Logo Website">
+     </div>
+      <input type="checkbox" class="openMenu" id="openMenu"/>
+      <label for="openMenu" class="ToggleIcon">
+        <div class="spinner diagonal part-1"></div>
+        <div class="spinner horizontal"></div>
+        <div class="spinner diagonal part-2"></div>
+      </label>
+        <nav class="dashboard__topNav" style="max-height: 244px;">
+          <ul>
+            <li class="dashboard__navMenuItem" data-id="1">
+              <a class="dashboard__navLink" href="#home">Home</a>
+            </li>
+            <li class="dashboard__navMenuItem" data-id="2">
+              <a class="dashboard__navLink" href="#aboutus">About Us</a>
+            </li>
+            <li class="dashboard__navMenuItem" data-id="3">
+              <a class="dashboard__navLink" href="#menu">Our Menus</a>
+            </li>
+            <li class="dashboard__navMenuItem" data-id="4">
+              <a class="dashboard__navLink" href="#testi">Testimonial</a>
+            </li>
+            <li class="dashboard__navMenuItem" data-id="5">
+              <a class="dashboard__navLink" href="#contact">Contact Us</a>
+            </li>
+          </ul>
+        </nav>
+    </header>    
+  </div>
+
+    <div class="wrapper">
+        <!--untuk home-->
+        <section id="home">
+            <div class="kolom">
+                <p class="deskripsi">Harga Ekonomis, Rasa Berkualitas!</p>
+                <h1>Selamat Datang di Kebab Duren Mbak Mel</h1>
+                <p>Bingung mau makan apa? Kebab dan menu favoritmu ada di sini, pesan sekarang di Kebab Duren Mbak Mel! Harga ekonomis, rasa high class, dan lumernya sampai sempoyongan.</p>
+                <br>
+                <a href="#aboutus" class="tbl-kuning">Read More</a>
+            </div>
+            <div class="gambarhome">
+                <img src="home3.png"/>
+            </div>
+        </section>
+
+        <!--untuk About Us-->
+        <section id="aboutus">
+            <img src="logo_remove.png"/>
+            <div class="kolom_about">
+                <h2>ABOUT US</h2>
+                <p>Sejak diluncurkan pada tahun 2020, Kebab Duren Mbak Mel berkembang terus dengan banyak mengeluarkan menu baru.</p>
+                <p class="deskripsi">- Menu Variatif -</p>
+                <p>Saat itu menu yang pertama kali ada hanya kebab. Namun, seiring waktu mulai banyak menu lainnya seperti burger, kebab lumpur, roti bakar, dan tortila ayam yang menjadi favorit di daerah Lima Puluh, Batu Bara.</p>
+            </div>
+        </section>
+
+        <!-- untuk Our Menus -->
+        <section id="menu">
+          <div class="tengah">
+              <div class="kolom_menu">
+                  <h2>OUR MENU</h2>
+              </div>
+
+              <div class="menu-list">
+                  <div class="kartu-menu">
+                    <img src="kebab2.jpg">
+                    <div class="content">
+                      <h3>Kebab</h3>
+                    </div>
+                  </div>
+                  <div class="kartu-menu">
+                    <img src="burger3.jpg">
+                    <div class="content">
+                      <h3>Burger</h3>
+                    </div>
+                  </div>
+                  <div class="kartu-menu">
+                    <img src="rotibakar.jpg">
+                    <div class="content">
+                      <h3>Roti Bakar</h3>
+                    </div>
+                  </div>
+                  <div class="kartu-menu">
+                    <img src="kebablumpur.jpg">
+                    <div class="content">
+                      <h3>Kebab Lumpur</h3>
+                    </div>
+                  </div>
+                  <div class="kartu-menu">
+                    <img src="tortila.jpg">
+                    <div class="content">
+                      <h3>Tortila</h3>
+                    </div>
+                  </div>
+                  <div class="kartu-menu">
+                    <img src="sandwich.jpg">
+                    <div class="content">
+                      <h3>Sandwich</h3>
+                    </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <section id="testi">
+        <div class="content-block with-bg-img  wow fadeIn" style="background: url(bgkebab.jpg) center top / cover no-repeat fixed; visibility: visible; animation-name: fadeIn;">
+        <div class="block-overlay"></div>
+        <div class="container">
+           <div class="title-container text-center">
+              <h2 class="title">What people say</h2>
+              <p class="subtitle">Berikut ulasan dari orang-orang yang memesan menu kami</p>
+            </div>
+           
+            <div class="swiper mySwiper container">
+              <div class="swiper-wrapper content">
+                  <div class="swiper-slide card">
+                      <div class="box1"></div>
+                      <div class="card-content">
+                          <div class="image">
+                              <img src="people2.png" alt="">
+                          </div>
+                          <div class="name-customer">
+                              <span class="name">Puput</span>
+                          </div>
+                          <div class="rating">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                          </div>
+                          <div class="about">
+                              <p>Tortilla ayam made by Kebabdurianmbkmel, isian full, rasanya mantull!!!.</p>
+                          </div>
+    
+                      </div>
+                  </div>
+
+                  <div class="swiper-slide card">
+                      <div class="box2"></div>
+                      <div class="card-content">
+                          <div class="image">
+                            <img src="people2.png" alt="">
+                          </div>
+                          <div class="name-customer">
+                              <span class="name">Anggi</span>
+                          </div>
+                          <div class="rating">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="far fa-star"></i>
+                          </div>
+                          <div class="about">
+                              <p>Kebab durian nya enak, isian durian nya bener2 full, durian nya fresh, rasanya pas deh, bagi yg suka durian boleh di coba di jamin rasanya pas gak bikin eneg</p>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="swiper-slide card">
+                      <div class="box1"></div>
+                      <div class="card-content">
+                          <div class="image">
+                            <img src="people2.png" alt="">
+                          </div>
+                          <div class="name-customer">
+                              <span class="name">Amel</span>
+                          </div>
+                          <div class="rating">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="far fa-star"></i>
+                              <i class="far fa-star"></i>
+                          </div>
+                          <div class="about">
+                              <p>Kebabnya enak, selalu puas beli kebab disini. Harganya pun terjangkau. Cuman rasanya sedikit asin, tapi tetap enakk.</p>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="swiper-slide card">
+                    <div class="box2"></div>
+                    <div class="card-content">
+                        <div class="image">
+                          <img src="people2.png" alt="">
+                        </div>
+                        <div class="name-customer">
+                            <span class="name">Dava</span>                       </div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <div class="about">
+                            <p>Kebab durian nya enak mantap banget deh rasanya, sesuai dengan harganya, di jamin puas deh. Makan seporsi bakal kenyang deh pokoknya.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide card">
+                  <div class="box1"></div>
+                  <div class="card-content">
+                      <div class="image">
+                        <img src="people2.png" alt="">
+                      </div>
+                      <div class="name-customer">
+                          <span class="name">Dian</span>
+                      </div>
+                      <div class="rating">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                          <i class="far fa-star"></i>
+                      </div>
+                      <div class="about">
+                          <p>Enak burger crispynya, isinya ada daging crispy, keju, telur, sosis, sayuran, dan sambal.</p>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="swiper-slide card">
+                <div class="box2"></div>
+                <div class="card-content">
+                    <div class="image">
+                      <img src="people2.png" alt="">
+                    </div>
+                    <div class="name-customer">
+                        <span class="name">Raffa</span>
+                    </div>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="about">
+                        <p>Selalu puas beli kebab di sini. Rasanya enak, harganya pun terjangkau. Sukses selalu Kebab Durian Mbak Mel!</p>
+                    </div>
+                </div>
+            </div>
+              </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+
+          </div>
+        </div>
+      </section>
+
+    <section id="contact">
+      <div class="tengah">
+          <div class="kolom">
+              <h2>CONTACT US</h2>
+          </div>
+          <div class="contact-container">
+            <div class="contact-content">
+              <div class="left-side">
+                <div class="address details">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <div class="topic"><a href="https://goo.gl/maps/9j4sNJAMHuu6UqTZ8">Address</a></div>
+                  <div class="text-one">Dusun 3 Mangkai Lama, Lima Puluh, Batu Bara, Sumatera Utara</div>
+                </div>
+                <div class="wa details">
+                  <i class="fa-brands fa-whatsapp"></i>
+                  <div class="topic"><a href="https://wa.me/6282274383653">WhatsApp</a></div>
+                  <div class="text-one">+62 822 7438 3653</div>
+                </div>
+                <div class="facebook details">
+                  <i class="fa-brands fa-facebook"></i>
+                  <div class="topic"><a href="https://www.facebook.com/kebabdurianmbkmel/">Facebook</a></div>
+                  <div class="text-one">Kebabdurianmbkmel</div>
+                </div>
+                <div class="instagram details">
+                  <i class="fa-brands fa-instagram"></i>
+                  <div class="topic"><a href="https://www.instagram.com/kebabdurianmbkmel13/">Instagram</a></div>
+                  <div class="text-one">@kebabdurianmbkmel13</div>
+                </div>
+              </div>
+              <div class="right-side">
+                <div class="topic-text"></div>
+                <p>Yuk buruan order sekarang, kalian juga bisa merapat ke outlet Kebab Duren Mbak Mel!</p>
+                <div>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3983.7526702342975!2d99.38442907497122!3d3.159764996815614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zM8KwMDknMzUuMiJOIDk5wrAyMycxMy4yIkU!5e0!3m2!1sen!2sid!4v1695096814691!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    </div>
+
+
+    <!-- footer -->
+    <footer class="footer__topFooter">
+        <div class="footer__Container">
+          <div class="footer__Container-garis">
+            <div class="footer__menuItem1">
+              <div class="footer__itemLogo">
+                <img src="logo_remove.png" alt="Logo Website">
+              </div>
+              <div class="footer__itemSosmed">
+                <a href="https://wa.me/6282274383653"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100056812336037/"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/kebabdurianmbkmel13/"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+            <div class="footer__menuItem">
+              <div class="footer__menuItem2">
+                <h4>Address</h4>
+                  <ul>
+                    <li>
+                      <span class="text">Dusun 3 Mangkai Lama, Lima Puluh, Batu Bara, Sumatera Utara</span>
+                    </li>
+                  </ul>
+              </div>
+              
+              <div class="footer__menuItem2">
+                <h4>Kebab Duren Mbak Mel</h4>
+                  <ul>
+                    <li><a href="#home"></span>Home</a></li>
+                    <li><a href="#aboutus"></span>About Us</a></li>
+                    <li><a href="#menu"></span>Our Menus</a></li>
+                    <li><a href="#testi"></span>Testimonial</a></li>
+                    <li><a href="#contact"></span>Contact Us</a></li>
+                  </ul>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="footer__Copyright">
+            <div class="footer__CopyrightText">
+              <p class="copyrightText">Copyright &copy; 2023. <b>Kebab Durian Mbak Mel</b> All rights reserved.</p>
+            </div>
+          </div>
+        </footer>
+        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+        <script src="javascript.js"></script>
+</body>
+</html>
